@@ -11,3 +11,159 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.backimage {
+  background-image: url("https://t3.ftcdn.net/jpg/01/55/43/08/360_F_155430860_Hlx6dRGMXy3d6G29eWXOY3xih3k1HswO.jpg");
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading1 {
+  color: black;
+  flex-wrap: wrap;
+}
+.button1 {
+  border: 2px solid red;
+  font-size: 25px;
+}
+.image1 {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  text-align: center;
+}
+.imagebackground {
+  background-color: antiquewhite;
+  background-size: cover;
+}
+.section3image {
+  width: 75vw;
+  background-size: cover;
+  border: 2px solid red;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.part4 {
+  background-color: antiquewhite;
+  background-size: cover;
+}
+.box-part4 {
+  border: 2px solid red;
+}
+.part-5 {
+  background-color: azure;
+  background-size: cover;
+}
+.part5-card {
+  border: 2px solid red;
+}
+
+.part5-image {
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  margin-top: 10px;
+}
+.Action {
+  background-color: rgb(46, 42, 42);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.couarsel {
+  height: 90vh;
+  width: 97vw;
+  background-size: cover;
+}
+.part-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio {
+  padding: 12px;
+
+}
+.butttoncontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.portfoloi-images {
+  width: 75vw;
+  background-size:cover;
+  border: 2px solid red;
+}
+.portfolo-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .image1 {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section3image {
+   width: 40vw;
+   background-size: cover;
+  
+  }
+  .subpartsection3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagebackground {
+    display: flex;
+  justify-content: space-between;
+  }
+  .portfoloi-images {
+    width: 25vw;
+    background-size:cover
+  }
+   
+}
+
+@media screen {
+  .couarsel {
+    height: 30%;
+    width: 70vw;
+    background-size: cover;
+  }
+}
+
+.list-background-color {
+  background-color: aquamarine;
+  padding: 15px;
+  background-size: cover;
+}
+.list-container {
+  border: 2px solid red;
+  margin-top: 10px;
+  list-style-type: none;
+}
